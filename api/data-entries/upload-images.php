@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../lib/bootstrap.php';
 require_once __DIR__ . '/../lib/auth.php';
 
-$baseUrl = "https://hertzinsp.co.in/plantation/api/"; 
+$baseUrl = "https://hertzinsp.co.in/plantation_survey/api/";
 
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     api_error('Method not allowed.', 405);

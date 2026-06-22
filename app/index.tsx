@@ -464,6 +464,6 @@ const styles = StyleSheet.create({
     backgroundColor: "rgba(255,255,255,0.05)",
   },
   badgeText: { color: "rgba(255,255,255,0.4)", fontSize: 11, letterSpacing: 3, fontWeight: "600" },
-  versionWrapper: { position: "absolute", bottom: 18 },
-  versionText: { color: "rgba(255,255,255,0.3)", fontSize: 11, letterSpacing: 1, fontWeight: "500" },
+  versionWrapper: { position: "absolute", bottom: 16 },
+  versionText: { color: "rgba(255,255,255,0.65)", fontSize: 16, letterSpacing: 1.5, fontWeight: "700" },
 });

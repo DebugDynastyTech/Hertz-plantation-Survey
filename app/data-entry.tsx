@@ -1499,7 +1499,7 @@ export default function DataEntry() {
               ) : null}
               <View style={styles.twoCol}>
                 <View style={{ flex: 1 }}>
-                  <Text style={styles.label}>No. of Rows</Text>
+                  <Text style={styles.label}>No. of plant target</Text>
                   <InputField
                     value={numberOfRows}
                     onChangeText={setNumberOfRows}
@@ -1508,7 +1508,7 @@ export default function DataEntry() {
                   />
                 </View>
                 <View style={{ flex: 1 }}>
-                  <Text style={styles.label}>Plants per Row</Text>
+                  <Text style={styles.label}>No. of plants planted</Text>
                   <InputField
                     value={plantsPerRow}
                     onChangeText={setPlantsPerRow}
